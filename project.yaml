@@ -83,7 +83,7 @@ advanced:
     mask: ''
     remove: ''
     delay: 15
-    scroll: true
+    scroll: false
     headers: {  }
     cookies: ''
     custom_js: ''
