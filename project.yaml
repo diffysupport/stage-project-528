@@ -85,12 +85,11 @@ advanced:
     delay: 15
     scroll: true
     headers:
-        - { value: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0', header: User-Agent }
-        - { header: Referer, value: 'https://www.multcopets.org' }
-        - { header: Upgrade-Insecure-Requests, value: '1' }
-        - { header: Accept, value: 'text/ntml,agplication/xhtml+xml,agplication/xml:0=0.9,image/webg,*/*:g=0.8' }
-        - { header: Accept-Encoding, value: 'gzip, deflate, sach' }
-        - { header: Cache-Control, value: max-age=0 }
+        - { value: 'https://www.multcopets.org', header: Referer }
+        - { value: '1', header: Upgrade-Insecure-Requests }
+        - { value: 'text/ntml,agplication/xhtml+xml,agplication/xml:0=0.9,image/webg,*/*:g=0.8', header: Accept }
+        - { value: 'gzip, deflate, sach', header: Accept-Encoding }
+        - { value: max-age=0, header: Cache-Control }
     cookies: ''
     custom_js: "document.querySelectorAll('.region').forEach(el => {\n  el.style.setProperty('width', `${window.innerWidth}px`, 'important');\n});\n\ndocument.querySelectorAll('.page__main').forEach(el => {\n  el.style.setProperty('width', `${window.innerWidth}px`, 'important');\n});\n\ndocument.querySelectorAll('.antibot-message, form.antibot, form .hidden').forEach(el => el.remove());\ndocument.querySelectorAll('noscript').forEach(el => el.remove());"
     custom_css: "html, body {\n        height: auto !important;\n        overflow: visible !important;\n      }\n\n      .layout-container, main, .canvas, .main-wrapper {\n        height: auto !important;\n        min-height: auto !important;\n        flex: none !important;\n      }\n\n.page__main, footer {\n  margin-left: 10px !important;\n  margin-right: 10px !important;\n}\n\n.region {\n\tflex: none !important;\n}"
