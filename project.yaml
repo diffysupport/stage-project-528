@@ -91,7 +91,7 @@ advanced:
     mock_content: {  }
     sensitivity: 15
     night_mode: false
-    retina_images: false
+    retina_images: true
     single_ip: true
     login:
         type: none
