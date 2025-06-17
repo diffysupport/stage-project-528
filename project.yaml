@@ -87,7 +87,7 @@ advanced:
     headers: {  }
     cookies: ''
     custom_js: ''
-    custom_css: ".layout-container.page.d-flex.flex-column {\n\tdisplay: block !important;\n}"
+    custom_css: ".layout-container.page.d-flex.flex-column {\n\tdisplay: block !important;\n}\n.page__main {\n\tmargin-left: 10px !important;\n    margin-right: 10px !important;\n}"
     mock_content: {  }
     sensitivity: 15
     night_mode: false
