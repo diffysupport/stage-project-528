@@ -86,8 +86,8 @@ advanced:
     scroll: true
     headers: {  }
     cookies: ''
-    custom_js: ''
-    custom_css: "html, body {\n        height: auto !important;\n        overflow: visible !important;\n      }\n\n      .layout-container, main, .canvas, .main-wrapper {\n        height: auto !important;\n        min-height: auto !important;\n        flex: none !important;\n      }\n\n.page__main, footer {\n  margin-left: 0px !important;\n  margin-right: 0px !important;\n}\n\n.region {\n\tflex: none !important;\n    width: 500px !important;\n}"
+    custom_js: "document.querySelectorAll('.region').forEach(el => {\n  el.style.setProperty('width', `${window.innerWidth}px`, 'important');\n});\n"
+    custom_css: "html, body {\n        height: auto !important;\n        overflow: visible !important;\n      }\n\n      .layout-container, main, .canvas, .main-wrapper {\n        height: auto !important;\n        min-height: auto !important;\n        flex: none !important;\n      }\n\n.page__main, footer {\n  margin-left: 0px !important;\n  margin-right: 0px !important;\n}\n\n.region {\n\tflex: none !important;\n}"
     mock_content: {  }
     sensitivity: 15
     night_mode: false
