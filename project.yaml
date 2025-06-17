@@ -98,7 +98,7 @@ advanced:
     sensitivity: 15
     night_mode: false
     retina_images: false
-    single_ip: true
+    single_ip: false
     login:
         type: none
         click_element: false
