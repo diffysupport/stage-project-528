@@ -87,7 +87,7 @@ advanced:
     headers: {  }
     cookies: ''
     custom_js: ''
-    custom_css: "html, body {\n        height: auto !important;\n        overflow: visible !important;\n      }\n\n      .layout-container, main, .canvas, .main-wrapper, footer {\n        height: auto !important;\n        min-height: auto !important;\n        flex: none !important;\n      }\n\n.page__main, footer {\n  margin-left: 0px !important;\n  margin-right: 0px !important;\n}"
+    custom_css: "html, body {\n        height: auto !important;\n        overflow: visible !important;\n      }\n\n      .layout-container, main, .canvas, .main-wrapper, footer {\n        height: auto !important;\n        min-height: auto !important;\n        flex: none !important;\n      }\n"
     mock_content: {  }
     sensitivity: 15
     night_mode: false
@@ -109,4 +109,4 @@ advanced:
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
-    stabilize: true
+    stabilize: false
