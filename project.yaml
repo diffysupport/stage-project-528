@@ -1,0 +1,107 @@
+basic:
+    name: 'https://www.multcopets.org'
+    environments:
+        production: 'https://www.multcopets.org'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 640
+        - 760
+        - 768
+        - 1024
+        - 1080
+        - 1200
+        - 1440
+        - 1466
+        - 1920
+    pages:
+        - /
+        - /search
+        - /user
+        - /user/login
+        - /cart
+        - /es
+        - /zh-hans
+        - /ru
+        - /vi
+        - /adoptables
+        - /adoption-information
+        - /new-pet-info-pack
+        - /cats-safe-home
+        - /news
+        - /kitties-for-hire
+        - /lost-form
+        - /lost-pet
+        - /found-reports
+        - /license-lookup
+        - /lost-reports
+        - /found-pet
+        - /found-form
+        - /stray-cat-information
+        - /licensing/pet
+        - /licensing/replacement-tag
+        - /licensing-information
+        - /form/change-information
+        - /license-vendors
+        - /about-facility-licensing
+        - /livestock-registration
+        - /animal-rescue-emergency
+        - /animal-nuisances
+        - /investigations-field-services
+        - /multnomah-county-animal-services-ordinance-chapter-13
+        - /fee/noi
+        - /volunteer-shelter
+        - /foster
+        - /community-advisory-committee-cac
+        - /volunteer-month
+        - /events
+        - /weekly-newsletter
+        - /donate/one-time
+        - /donation-wish-list
+        - /donate-vehicle
+        - /ways-donate
+        - /low-cost-services
+        - /pet-food-assistance-resources
+        - /rehoming-information
+        - /training-resources
+        - /resources-community-cats
+        - /deceased-animals-end-life-services
+        - /pay-fees
+        - /about-us
+        - /hours
+        - /form/contact-us
+        - /reports-and-agency-statistics
+        - /faqs
+        - /about-public-record-requests
+        - /form/public-records-request
+        - /guidelines-stray-kittens-cats
+        - /news/petco-love-invests-lifesaving-equipment
+        - /news/national-volunteer-week
+        - /news/petco-love-lost-helping-reunite-lost-pets-their-families
+    monitoring:
+        days: {  }
+        type: daily
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
