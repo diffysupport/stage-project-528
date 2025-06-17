@@ -87,7 +87,7 @@ advanced:
     headers: {  }
     cookies: ''
     custom_js: ''
-    custom_css: "html, body {\n        height: auto !important;\n        overflow: visible !important;\n      }\n\n      .layout-container, main, .canvas, .main-wrapper, footer {\n        height: auto !important;\n        min-height: auto !important;\n        overflow: visible !important;\n      }\n\n.page__main, footer {\n  margin-left: 100px !important;\n  margin-right: 200px !important;\n}"
+    custom_css: "html, body {\n        height: auto !important;\n        overflow: visible !important;\n      }\n\n      .layout-container, main, .canvas, .main-wrapper, footer {\n        height: auto !important;\n        min-height: auto !important;\n        overflow: visible !important;\n      }\n\n.page__main, footer {\n  margin-left: 0px !important;\n  margin-right: 0px !important;\n}"
     mock_content: {  }
     sensitivity: 15
     night_mode: false
